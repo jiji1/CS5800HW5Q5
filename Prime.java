@@ -1,7 +1,7 @@
 
 public class Prime {
 
-	public static Boolean isPrime (int number) { 
+	public Boolean isPrime (int number) { 
 		 // Corner case
         if (number <= 1)
             return false;

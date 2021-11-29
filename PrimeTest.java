@@ -2,29 +2,31 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PrimeTest {
+	
+	Prime pr = new Prime();
 
 	@Test
 	public void test2() {
-		assertTrue(Prime.isPrime(2));		
+		assertTrue(pr.isPrime(2));		
 	}
 
 	@Test
 	public void test3() {
-		assertTrue(Prime.isPrime(3));		
+		assertTrue(pr.isPrime(3));		
 	}
 	
 	@Test
 	public void test4() {
-		assertTrue(Prime.isPrime(4));		
+		assertTrue(pr.isPrime(4));		
 	}
 	
 	@Test
 	public void test5() {
-		assertTrue(Prime.isPrime(5));		
+		assertTrue(pr.isPrime(5));		
 	}
 	
 	@Test
 	public void test6() {
-		assertTrue(Prime.isPrime(6));		
+		assertTrue(pr.isPrime(6));		
 	}
 }
